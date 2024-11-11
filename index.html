@@ -59,7 +59,7 @@
         
         .search-bar {
             display: flex;
-            gap: 10px;
+            gap: 5x;
             margin-top: 20px;
            background-color: white;
            border-radius: 5px;
@@ -71,10 +71,18 @@
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #ccc;
-            width: 210px;
+            width: 250px;
             height: 30px;
             margin: auto;
-            gap: 10px;
+            
+            color: rgb(6, 5, 5);
+            
+            color: #fff;
+        }
+        .search-input ::placeholder{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 1; 
         }
         .search-button {
             background-color: #0056b3;
@@ -83,8 +91,60 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            height: 30px;
+            margin: auto;
+        }
+        .melde{
+            background-color: #072444;
+            width:60%;
+            margin:auto;
+            height: 60px;
+            color: white;
+            margin-top: 20px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .melde p{
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+        }
+        .melde a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .Finde{
+            font-size: 24px;
+            color: #0056b3;
+            text-align: center;
+            margin-top: 40px;
+
+
+        }
+        .mycontainer{
+            display: flex;
+            margin: auto;
+
         }
         
+       .mycontainer div{
+        width: 20%;
+        height: 200px;
+       
+        margin-top: 40px;
+        margin-left:20px;
+        float: right;
+        border-radius: 5px;
+       
+
+       }
+       
+       
+       
     </style>
 </head>
 <body>
@@ -115,5 +175,32 @@
         </div>
         </section>
     </main>
+
+    <div class="melde"><p>Melde dich an, um dem Gastgeber eine Nachricht zu schicken und mehr Details zu einer Unterkunft zu erhalten.</p>
+    <a href="">Anmelden</a>
+    </div>
+    <div class="Finde"> <p>Finde Unterkünfte ganz nach deinem Geschmack</p></div>
+
+     <div class="mycontainer">
+
+        <div  style="background: url('imges/1.jpg') center/cover no-repeat;">
+          
+          <p>Ferienhaus</p>
+          
+        </div>
+        
+        <div  style="background: url('imges/2.jpg') center/cover no-repeat;">
+          
+            <p>Ferienhaus</p>
+            
+          </div>
+          <div  style="background: url('imges/3.jpg') center/cover no-repeat;">
+          
+            <p>Ferienhaus</p>
+            
+          </div>
+        
+      </div>
+      </div>
 </body>
 </html>
